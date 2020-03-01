@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width= device-width, initial-scale= 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Code Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+    <div class="row">
+        <div class="col lg 6">
+            <a href="highscores.html"><strong>View High Scores</strong></a>
+        </div>
+        <div class="col lg 6">
+            <h6 id="timer"></h6>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col lg 4"></div>
+        <div class="col lg 4">
+
+            <div id="card-1" class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Code Quiz</h5><br>
+                    <center><img class="resize" src="quiz.jpg"></center><br>
+                    <p class="card-text">Try this <strong>code </strong> quiz!<br> Every wrong answer takes away 5 seconds. <br>Good luck :)</p>
+                    <div class="col text-center">
+                        <button id="start" class="btn">Start Quiz</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="question-card" class="card" style="display:none">
+            
+                <div class="card-body">
+                    <h3 id="question"></h3>
+                    <ul>
+                        <li>
+                            <button id="answerBtn0" class="btn btn-answer"></button>
+                        </li>
+                        <li>
+                            <button id="answerBtn1" class="btn btn-answer"></button>
+                        </li>
+                        <li>
+                            <button id="answerBtn2" class="btn btn-answer"></button>
+                        </li>
+                        <li>
+                            <button id="answerBtn3" class="btn btn-answer"></button>
+                        </li>
+                        <li id="response-alert"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="game-over-screen" class="card" style="display:none">
+                
+                <div class="card-body">
+                    <h3 id="game-over"></h3>
+                    <div id="score-text"></div>
+                    <label for="initials">Insert your initials:</label>
+                    <br>
+                    <input type="text" id="initials">
+                    <button id="btn-initials" class="btn">Submit</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="col lg 2"></div>
+    </div>
+
+    <script src="js/logic.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+
 </html>

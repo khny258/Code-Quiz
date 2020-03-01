@@ -2,6 +2,14 @@
 
 https://khny258.github.io/Code-Quiz/
 
+<strong>Desktop</strong>
+<br>
+<img src="desktop.png" width="75%" height="75%">
+
+<strong>Mobile</strong>
+<br>
+<img src="mobile.png" width="50%" height="50%">
+
 Create a code quiz where:
 
 - Timer starts

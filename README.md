@@ -10,7 +10,7 @@ https://khny258.github.io/Code-Quiz/
 <br>
 <img src="mobile.png" width="25%" height="25%">
 
-Create a code quiz where:
+<strong>Create a code quiz where:</strong>
 
 - Timer starts
 - Answer mulitple choice questions

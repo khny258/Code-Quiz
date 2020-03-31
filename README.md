@@ -4,11 +4,11 @@ https://khny258.github.io/Code-Quiz/
 
 <strong>Desktop</strong>
 <br>
-<img src="desktop.png" width="75%" height="75%">
+<img src="assets/desktop.png" width="75%" height="75%">
 
 <strong>Mobile</strong>
 <br>
-<img src="mobile.png" width="25%" height="25%">
+<img src="assets/mobile.png" width="25%" height="25%">
 
 <strong>Create a code quiz where:</strong>
 
